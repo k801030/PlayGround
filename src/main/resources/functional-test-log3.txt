@@ -1,0 +1,45 @@
+Execute] Scenario: (IMAGE_9) update sourceImages when Campaign closed
+Execute] Scenario: (IMAGE_2) update sourceImages by http
+Execute] Scenario: (IMAGE_5) update sourceImages to Campaign when acquire ends but before redeem
+Execute] Scenario: (IMAGE_12) update sourceImages to a PC Campaign (type 3)
+Execute] Scenario: (NEVEC-8696) create sourceImages by base64ed data
+Execute] Scenario: (NEVEC-8696) update sourceImages by base64ed data
+Execute] Scenario: (IMAGE_8) update sourceImages to type-2 Campaign when redeem starts
+Execute] Scenario: (IMAGE_4) update sourceImages to Campaign when acquire starts but before redeem
+Execute] Scenario: (IMAGE_13) update sourceImages to a PC Campaign (type 6)
+Execute] Scenario: (IMAGE_6) update sourceImages to Campaign when redeem starts
+Execute] Scenario: (NEVEC-6505) Create an not existed IMG SRC to sourceImages should be failed
+Execute] Scenario: (IMAGE_14) update outputImages should be failed
+Execute] Scenario: (IMAGE_10) update sourceImages when acquire starts even the Campaign is still on draft
+Execute] Scenario: (IMAGE_11) (NEVEC-6505) update an not existed IMG SRC to sourceImages should be failed
+Execute] Scenario: (NEVEC-6738) query, get images
+Execute] Scenario: (IMAGE_7) update sourceImages to type-2 Campaign before redeem
+Success] Scenario: (NEVEC-8696) create sourceImages by base64ed data
+Execute] Scenario: (NEVEC-7879-1) taggedSourceImages test without tag
+Success] Scenario: (NEVEC-6505) Create an not existed IMG SRC to sourceImages should be failed
+Execute] Scenario: (NEVEC-7879-2) taggedSourceImages test with multiple tagged image
+Success] Scenario: (IMAGE_11) (NEVEC-6505) update an not existed IMG SRC to sourceImages should be failed
+Execute] Scenario: (NEVEC-7879-3) update taggedSourceImages test with multiple tagged image
+Success] Scenario: (NEVEC-8696) update sourceImages by base64ed data
+Execute] Scenario: (NEVEC-7879-4) source image cannot be null
+Success] Scenario: (NEVEC-7879-4) source image cannot be null
+Execute] Scenario: (NEVEC-7879-5) the tag is too long
+Success] Scenario: (IMAGE_14) update outputImages should be failed
+Execute] Scenario: (NEVEC-7879-6) too many images
+Success] Scenario: (NEVEC-7879-6) too many images
+Execute] Scenario: (NEVEC-7879-7) source image cannot be null (update)
+Success] Scenario: (NEVEC-7879-5) the tag is too long
+Execute] Scenario: (NEVEC-7879-8) the tag is too long (update)
+Success] Scenario: (NEVEC-7879-7) source image cannot be null (update)
+Execute] Scenario: (NEVEC-7879-9) too many images (update)
+Success] Scenario: (NEVEC-7879-8) the tag is too long (update)
+Success] Scenario: (NEVEC-7879-9) too many images (update)
+Success] Scenario: (IMAGE_10) update sourceImages when acquire starts even the Campaign is still on draft
+Success] Scenario: (IMAGE_6) update sourceImages to Campaign when redeem starts
+Success] Scenario: (IMAGE_8) update sourceImages to type-2 Campaign when redeem starts
+Success] Scenario: (NEVEC-7879-1) taggedSourceImages test without tag
+Success] Scenario: (IMAGE_9) update sourceImages when Campaign closed
+Success] Scenario: (IMAGE_4) update sourceImages to Campaign when acquire starts but before redeem
+
+
+Success] Scenario: (IMAGE_5) update sourceImages to Campaign when acquire ends but before redeem

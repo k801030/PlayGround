@@ -1,0 +1,1249 @@
+Execute] Scenario: try to create a campaign but without required field
+Execute] Scenario: create a not allowed type campaign
+Execute] Scenario: try to create a wrong timestamp campaign, case 2
+Execute] Scenario: try to create a campaign with wrong reminderIntervals
+Execute] Scenario: try to create a campaign with participant store not including self
+Execute] Scenario: (CERT5) create with invalid cert
+Execute] Scenario: (CERT4) query with invalid cert
+Execute] Scenario: try to create a campaign with notification but without redeemEndTs
+Execute] Scenario: (CERT2) Try to access an end point which is not existed but authed without any cert
+Execute] Scenario: try to create a wrong timestamp campaign
+Execute] Scenario: try to create a wrong timestamp campaign, case 3
+Execute] Scenario: (CERT3) query with valid cert
+Execute] Scenario: (NEVEC-6500) try to create a campaign with both minTotalThreshold and minQuantityThreshold
+Execute] Scenario: create a campaign, verify it's format
+Execute] Scenario: try to create a campaign with wrong property
+Execute] Scenario: (CERT1) Try to access an end-point which is not-existed and not-authed
+Success] Scenario: (CERT2) Try to access an end point which is not existed but authed without any cert
+Execute] Scenario: (NEVEC-6456) try to create a campaign with SHIPPING target
+Success] Scenario: (CERT1) Try to access an end-point which is not-existed and not-authed
+Execute] Scenario: (NEVEC-6456) try to create a campaign with ORDER target while condition type is ITEM
+Success] Scenario: try to create a campaign with wrong property
+Execute] Scenario: (NEVEC-6456) try to create a campaign with ITEM target while condition type is ORDER
+Success] Scenario: (CERT5) create with invalid cert
+Execute] Scenario: (NEVEC-6456) try to create a campaign with SHIPPING target but no shipping types
+Success] Scenario: try to create a wrong timestamp campaign, case 2
+Execute] Scenario: (NEVEC-6456) try to create a campaign without target
+Success] Scenario: (NEVEC-6500) try to create a campaign with both minTotalThreshold and minQuantityThreshold
+Execute] Scenario: (NEVEC-6489) try to create a campaign with negative fixed discount
+Success] Scenario: try to create a campaign but without required field
+Success] Scenario: try to create a campaign with wrong reminderIntervals
+Success] Scenario: create a not allowed type campaign
+Success] Scenario: try to create a campaign with notification but without redeemEndTs
+Execute] Scenario: (NEVEC-6489) try to create a campaign with zero fixed discount
+Execute] Scenario: (NEVEC-6489) try to create a campaign with it's over 9000!!!!!!!
+Execute] Scenario: (NEVEC-6489) try to create a campaign with negative percentage discount
+Success] Scenario: try to create a wrong timestamp campaign
+Success] Scenario: (NEVEC-6456) try to create a campaign with SHIPPING target but no shipping types
+Success] Scenario: (NEVEC-6456) try to create a campaign with ORDER target while condition type is ITEM
+Execute] Scenario: (NEVEC-6489) try to create a campaign with discount null
+Success] Scenario: (NEVEC-6456) try to create a campaign with ITEM target while condition type is ORDER
+Execute] Scenario: (NEVEC-6489) try to create a campaign with discount -1/-1
+Execute] Scenario: (NEVEC-6491) try to create a campaign with too long userTags
+Success] Scenario: try to create a wrong timestamp campaign, case 3
+Execute] Scenario: (NEVEC-6897) try to create a campaign with too long payTypes
+Execute] Scenario: (NEVEC-6491) try to create a campaign with too long deviceTags
+Execute] Scenario: (NEVEC-6491) try to create a campaign with too long shippingTypes
+Success] Scenario: (NEVEC-6456) try to create a campaign without target
+Success] Scenario: (NEVEC-6489) try to create a campaign with negative fixed discount
+Execute] Scenario: (NEVEC-6997) Cannot create a coupon campaign with perUserCoupon not 1
+Execute] Scenario: (NEVEC-6997) Cannot create a coupon campaign with perCoupon not 1
+Success] Scenario: (NEVEC-6489) try to create a campaign with it's over 9000!!!!!!!
+Execute] Scenario: (NEVEC-6986) Cannot create a campaign with too long expression(200k)
+Success] Scenario: (NEVEC-6489) try to create a campaign with negative percentage discount
+Success] Scenario: (NEVEC-6491) try to create a campaign with too long userTags
+Execute] Scenario: (CREATE1) create a campaign with wrong line type at redeemConditions
+Success] Scenario: (NEVEC-6489) try to create a campaign with discount null
+Execute] Scenario: (CREATE2) create a campaign with wrong line type at discountRule
+Execute] Scenario: (NEVEC-12746) try to create an usageRight campaign with participant store and user tags and device tags
+Success] Scenario: (NEVEC-6897) try to create a campaign with too long payTypes
+Success] Scenario: (NEVEC-6489) try to create a campaign with discount -1/-1
+Success] Scenario: (NEVEC-6491) try to create a campaign with too long deviceTags
+Success] Scenario: (NEVEC-6489) try to create a campaign with zero fixed discount
+Success] Scenario: (NEVEC-6491) try to create a campaign with too long shippingTypes
+Execute] Scenario: (NEVEC-12746) Cannot create an usageRight campaign with line type
+Execute] Scenario: (GET1) get a just updated campaign
+Execute] Scenario: (NEVEC-12746) Cannot create an usageRight campaign with target type
+Execute] Scenario: (GET2) try to get a non-exist campaign
+Execute] Scenario: (GET2) try to get a wrong-format id campaign
+Success] Scenario: (NEVEC-6997) Cannot create a coupon campaign with perUserCoupon not 1
+Success] Scenario: (NEVEC-6997) Cannot create a coupon campaign with perCoupon not 1
+Execute] Scenario: (NEVEC-6993) get a campaign without expression, verify it's format
+Execute] Scenario: (NEVEC-6993) get a campaign with expression, verify it's format
+Success] Scenario: (NEVEC-6456) try to create a campaign with SHIPPING target
+Execute] Scenario: query by campaignid
+Success] Scenario: create a campaign, verify it's format
+Execute] Scenario: query by createdUserId(sort is meaningless/unpredictable)
+Success] Scenario: (CREATE1) create a campaign with wrong line type at redeemConditions
+Execute] Scenario: query by createStoreIds(sort is meaningless/unpredictable)
+Success] Scenario: (CREATE2) create a campaign with wrong line type at discountRule
+Execute] Scenario: query by participantStoreIds(sort is meaningless/unpredictable)
+Success] Scenario: try to create a campaign with participant store not including self
+Execute] Scenario: (NEVEC-6453) query by ALL_STORE(sort is meaningless/unpredictable)
+Success] Scenario: (NEVEC-12746) Cannot create an usageRight campaign with line type
+Execute] Scenario: query by title(sort is meaningless/unpredictable)
+Success] Scenario: (GET2) try to get a wrong-format id campaign
+Execute] Scenario: query by userTags(sort is meaningless/unpredictable)
+Success] Scenario: (NEVEC-12746) Cannot create an usageRight campaign with target type
+Success] Scenario: (CERT3) query with valid cert
+Execute] Scenario: query by deviceTags(sort is meaningless/unpredictable)
+Execute] Scenario: (NEVEC-6897) query by payTypes(sort is meaningless/unpredictable)
+Success] Scenario: (NEVEC-6986) Cannot create a campaign with too long expression(200k)
+Success] Scenario: (GET2) try to get a non-exist campaign
+Execute] Scenario: query by sCustomField2(sort is meaningless/unpredictable)
+Execute] Scenario: query by time
+Success] Scenario: (NEVEC-12746) try to create an usageRight campaign with participant store and user tags and device tags
+Execute] Scenario: query by sCustomField3(sort is meaningless/unpredictable)
+Success] Scenario: (CERT4) query with invalid cert
+Execute] Scenario: query by sCustomField4(sort is meaningless/unpredictable)
+Success] Scenario: (NEVEC-6993) get a campaign with expression, verify it's format
+Success] Scenario: (NEVEC-6993) get a campaign without expression, verify it's format
+Execute] Scenario: query by sCustomField5(sort is meaningless/unpredictable)
+Execute] Scenario: query by sCustomField6(sort is meaningless/unpredictable)
+Success] Scenario: (NEVEC-6453) query by ALL_STORE(sort is meaningless/unpredictable)
+Execute] Scenario: query by sCustomField7(sort is meaningless/unpredictable)
+Success] Scenario: (GET1) get a just updated campaign
+Execute] Scenario: query by sCustomField8(sort is meaningless/unpredictable)
+Success] Scenario: query by campaignid
+Execute] Scenario: (NEVEC-6642) query multiple conditions on the same sCustomField
+Success] Scenario: query by sCustomField3(sort is meaningless/unpredictable)
+Execute] Scenario: (NEVEC-6139) query by draft(cannot sort)
+Success] Scenario: query by sCustomField4(sort is meaningless/unpredictable)
+Execute] Scenario: query by isComplete(cannot sort)
+Success] Scenario: query by sCustomField2(sort is meaningless/unpredictable)
+Execute] Scenario: query by acquirable/restricted
+Success] Scenario: query by createdUserId(sort is meaningless/unpredictable)
+Success] Scenario: query by sCustomField6(sort is meaningless/unpredictable)
+Success] Scenario: query by sCustomField5(sort is meaningless/unpredictable)
+Execute] Scenario: query by recommended/personal
+Execute] Scenario: query by referral/referralCanRedeem/hasCodeList
+Execute] Scenario: double sorting test
+Success] Scenario: query by createStoreIds(sort is meaningless/unpredictable)
+Execute] Scenario: offset/limit test
+Success] Scenario: query by sCustomField8(sort is meaningless/unpredictable)
+Execute] Scenario: query by createStoreIds fail since it's chinese character
+Success] Scenario: (NEVEC-6139) query by draft(cannot sort)
+Execute] Scenario: query campaigns by usageRight
+Success] Scenario: query by participantStoreIds(sort is meaningless/unpredictable)
+Execute] Scenario: query campaigns by usageRight false
+Success] Scenario: query by createStoreIds fail since it's chinese character
+Execute] Scenario: query campaigns by usageRight true
+Success] Scenario: query by sCustomField7(sort is meaningless/unpredictable)
+Execute] Scenario: query campaigns by usageRight both
+Success] Scenario: (NEVEC-6642) query multiple conditions on the same sCustomField
+Execute] Scenario: query campaigns with invalid usageRight
+Success] Scenario: query campaigns with invalid usageRight
+Execute] Scenario: (UPDATE1) update flag to an existed campaign
+Success] Scenario: query by isComplete(cannot sort)
+Execute] Scenario: (UPDATE2) update a campaign with not allowed field
+Success] Scenario: query campaigns by usageRight false
+Success] Scenario: query campaigns by usageRight
+Execute] Scenario: (UPDATE3) (NEVEC-6139) update a campaign to draft
+Execute] Scenario: (UPDATE4) too late to unset draftMode
+Success] Scenario: (UPDATE1) update flag to an existed campaign
+Execute] Scenario: (UPDATE5) too late to unset draftMode, case 2
+Success] Scenario: query campaigns by usageRight true
+Execute] Scenario: (UPDATE6) update a campaign with illegal time value
+Success] Scenario: query campaigns by usageRight both
+Success] Scenario: (UPDATE2) update a campaign with not allowed field
+Execute] Scenario: (UPDATE7) update a campaign with illegal time value, case 2
+Execute] Scenario: (UPDATE8) update a campaign with illegal time value, case 3
+Success] Scenario: double sorting test
+Execute] Scenario: (UPDATE9) update a campaign with illegal time value, case 4
+Success] Scenario: (UPDATE3) (NEVEC-6139) update a campaign to draft
+Execute] Scenario: (UPDATE10) update a campaign with illegal time value, case 5
+Success] Scenario: query by recommended/personal
+Execute] Scenario: (UPDATE11) update a campaign with illegal time value, case 6
+Success] Scenario: query by acquirable/restricted
+Execute] Scenario: (UPDATE12) update a campaign's reminderIntervals to empty and back with value
+Success] Scenario: offset/limit test
+Execute] Scenario: (NEVEC-6322) mass update test
+Success] Scenario: query by referral/referralCanRedeem/hasCodeList
+Execute] Scenario: (NEVEC-6500) try to update a campaign with both minTotalThreshold and minQuantityThreshold
+Success] Scenario: (NEVEC-6500) try to update a campaign with both minTotalThreshold and minQuantityThreshold
+Execute] Scenario: (NEVEC-6456) try to update a campaign with SHIPPING target to unset shipping types
+Success] Scenario: (NEVEC-6322) mass update test
+Execute] Scenario: Update ITEM-campaign's discountRule target success case: ITEM to ITEM
+Success] Scenario: (NEVEC-6456) try to update a campaign with SHIPPING target to unset shipping types
+Execute] Scenario: Update ITEM-campaign's discountRule target success case: ITEM to SHIPPING
+Success] Scenario: Update ITEM-campaign's discountRule target success case: ITEM to ITEM
+Execute] Scenario: Update ORDER-campaign's discountRule target success case: ORDER to ORDER
+Success] Scenario: Update ITEM-campaign's discountRule target success case: ITEM to SHIPPING
+Execute] Scenario: Update ORDER-campaign's discountRule target success case: ORDER to SHIPPING
+Success] Scenario: query by time
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target success case: ORDER to ORDER
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target success case: ORDER to ORDER
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target success case: ORDER to SHIPPING
+Success] Scenario: Update ORDER-campaign's discountRule target success case: ORDER to SHIPPING
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target success case: ORDER to MATCHED_ITEMS
+Success] Scenario: Update ORDER-campaign's discountRule target success case: ORDER to ORDER
+Execute] Scenario: Update ITEM-campaign's discountRule target and shipping types at the same time success case: ITEM to SHIPPING
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target success case: ORDER to SHIPPING
+Execute] Scenario: Update ORDER-campaign's discountRule target and shipping types at the same time success case: ORDER to SHIPPING
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target success case: ORDER to MATCHED_ITEMS
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time success case: ORDER to SHIPPING
+Success] Scenario: Update ITEM-campaign's discountRule target and shipping types at the same time success case: ITEM to SHIPPING
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time success case: MATCHED_ITEMS to SHIPPING
+Success] Scenario: Update ORDER-campaign's discountRule target and shipping types at the same time success case: ORDER to SHIPPING
+Execute] Scenario: Update ITEM-campaign's discountRule target and shipping types at the same time failed case: ITEM to SHIPPING
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time success case: ORDER to SHIPPING
+Execute] Scenario: Update ORDER-campaign's discountRule target and shipping types at the same time failed case: ORDER to SHIPPING
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time success case: MATCHED_ITEMS to SHIPPING
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time failed case: ORDER to SHIPPING
+Success] Scenario: Update ITEM-campaign's discountRule target and shipping types at the same time failed case: ITEM to SHIPPING
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time failed case: MATCHED_ITEMS to SHIPPING
+Success] Scenario: Update ORDER-campaign's discountRule target and shipping types at the same time failed case: ORDER to SHIPPING
+Execute] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to ORDER
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time failed case: ORDER to SHIPPING
+Execute] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to MATCHED_ITEMS
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target and shipping types at the same time failed case: MATCHED_ITEMS to SHIPPING
+Execute] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to ITEM
+Success] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to ORDER
+Execute] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to MATCHED_ITEMS
+Success] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to MATCHED_ITEMS
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target error case: ORDER to ITEM
+Success] Scenario: query by title(sort is meaningless/unpredictable)
+] shippingTypes
+Success] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to ITEM
+Execute] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to SHIPPING with null shippingTypes
+Success] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to MATCHED_ITEMS
+] shippingTypes
+Success] Scenario: query by userTags(sort is meaningless/unpredictable)
+Success] Scenario: query by deviceTags(sort is meaningless/unpredictable)
+Execute] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to SHIPPING with null shippingTypes
+] shippingTypes
+Success] Scenario: (NEVEC-6897) query by payTypes(sort is meaningless/unpredictable)
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target error case: ORDER to SHIPPING with null shippingTypes
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target error case: ORDER to ITEM
+Execute] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to null
+] shippingTypes
+Success] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to SHIPPING with null shippingTypes
+Execute] Scenario: Update FILTERED_ORDER-campaign's discountRule target error case: ORDER to null
+Execute] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to null
+] shippingTypes
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ITEM to ITEM with target ITEM
+Success] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to SHIPPING with null shippingTypes
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ITEM to ITEM with target SHIPPING
+] shippingTypes
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ITEM to ORDER with target SHIPPING
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target error case: ORDER to SHIPPING with null shippingTypes
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ITEM to FILTERED_ORDER with target SHIPPING
+Success] Scenario: Update ITEM-campaign's discountRule target error case: ITEM to null
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ORDER to ITEM with target SHIPPING
+Success] Scenario: Update FILTERED_ORDER-campaign's discountRule target error case: ORDER to null
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ORDER to ORDER with target ORDER
+Success] Scenario: Update ORDER-campaign's discountRule target error case: ORDER to null
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ORDER to ORDER with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType success case: ITEM to ITEM with target ITEM
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ORDER to FILTERED_ORDER with target ORDER
+Success] Scenario: Update campaign's redeemConditions lineType success case: ITEM to ORDER with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType success case: ORDER to FILTERED_ORDER with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType success case: ITEM to FILTERED_ORDER with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to ITEM with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType success case: ITEM to ITEM with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to ORDER with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType success case: ORDER to ITEM with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to ORDER with target ORDER
+Success] Scenario: Update campaign's redeemConditions lineType success case: ORDER to ORDER with target ORDER
+Execute] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to FILTERED_ORDER with target ORDER
+Success] Scenario: Update campaign's redeemConditions lineType success case: ORDER to ORDER with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to FILTERED_ORDER with target MATCHED_ITEMS
+Success] Scenario: Update campaign's redeemConditions lineType success case: ORDER to FILTERED_ORDER with target ORDER
+Execute] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to FILTERED_ORDER with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType success case: ORDER to FILTERED_ORDER with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType error case: ITEM to ORDER with target ITEM
+Success] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to ORDER with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType error case: ITEM to FILTERED_ORDER with target ITEM
+Success] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to ITEM with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType error case: ORDER to ITEM with target ORDER
+Success] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to ORDER with target ORDER
+Execute] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to ITEM with target ORDER
+Success] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to FILTERED_ORDER with target ORDER
+Execute] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to ITEM with target MATCHED_ITEMS
+Success] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to FILTERED_ORDER with target MATCHED_ITEMS
+Execute] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to ORDER with target MATCHED_ITEMS
+Success] Scenario: Update campaign's redeemConditions lineType success case: FILTERED_ORDER to FILTERED_ORDER with target SHIPPING
+Execute] Scenario: Update campaign's redeemConditions lineType error case: ITEM to null with target ITEM
+Success] Scenario: Update campaign's redeemConditions lineType error case: ORDER to ITEM with target ORDER
+Execute] Scenario: Update campaign's redeemConditions lineType error case: ITEM to null with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType error case: ITEM to FILTERED_ORDER with target ITEM
+Execute] Scenario: Update campaign's redeemConditions lineType error case: ORDER to null with target ORDER
+Success] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to ITEM with target ORDER
+Execute] Scenario: Update campaign's redeemConditions lineType error case: ORDER to null with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType error case: ITEM to ORDER with target ITEM
+Execute] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to null with target ORDER
+Success] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to ITEM with target MATCHED_ITEMS
+Execute] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to null with target SHIPPING
+Success] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to ORDER with target MATCHED_ITEMS
+Execute] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to null with target MATCHED_ITEMS
+Success] Scenario: Update campaign's redeemConditions lineType error case: ITEM to null with target ITEM
+Execute] Scenario: (NEVEC-6489) try to update a campaign with negative fixed discount
+Success] Scenario: Update campaign's redeemConditions lineType error case: ITEM to null with target SHIPPING
+Execute] Scenario: (NEVEC-6489) try to update a campaign with zero fixed discount
+Success] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to null with target ORDER
+Execute] Scenario: (NEVEC-6489) try to update a campaign with negative percentage discount
+Success] Scenario: Update campaign's redeemConditions lineType error case: ORDER to null with target ORDER
+Execute] Scenario: (NEVEC-6489) try to update a campaign with precentage more than 100
+Success] Scenario: Update campaign's redeemConditions lineType error case: ORDER to null with target SHIPPING
+Execute] Scenario: (NEVEC-6489) try to update a campaign with discount -1/-1
+Success] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to null with target SHIPPING
+Execute] Scenario: (NEVEC-6489) try to update a campaign with percentage null
+Success] Scenario: Update campaign's redeemConditions lineType error case: FILTERED_ORDER to null with target MATCHED_ITEMS
+Execute] Scenario: (NEVEC-6489) try to update a campaign with fixed null
+Success] Scenario: (NEVEC-6489) try to update a campaign with negative fixed discount
+Execute] Scenario: (NEVEC-6491) try to update a campaign with with too long userTags
+Success] Scenario: (NEVEC-6489) try to update a campaign with negative percentage discount
+Success] Scenario: (NEVEC-6489) try to update a campaign with precentage more than 100
+Success] Scenario: (NEVEC-6489) try to update a campaign with zero fixed discount
+Execute] Scenario: (NEVEC-6491) try to update a campaign with with too long deviceTags
+Execute] Scenario: (NEVEC-6491) try to update a campaign with with too long shippingTypes
+Execute] Scenario: (NEVEC-6897) try to update a campaign with with too long payTypes
+Success] Scenario: (NEVEC-6489) try to update a campaign with discount -1/-1
+Execute] Scenario: (NEVEC-6997) Cannot update a coupon campaign with perCoupon not 1
+Success] Scenario: (NEVEC-6489) try to update a campaign with percentage null
+Execute] Scenario: (NEVEC-6997) Cannot update a coupon campaign with perUserCoupon not 1
+Success] Scenario: (NEVEC-6489) try to update a campaign with fixed null
+Execute] Scenario: Stop a campaign
+Success] Scenario: (NEVEC-6491) try to update a campaign with with too long userTags
+Execute] Scenario: Stop a campaign, case 2
+Success] Scenario: (NEVEC-6491) try to update a campaign with with too long deviceTags
+Success] Scenario: (NEVEC-6897) try to update a campaign with with too long payTypes
+Execute] Scenario: Stop a campaign and also update other field
+Success] Scenario: (NEVEC-6997) Cannot update a coupon campaign with perCoupon not 1
+Execute] Scenario: too much limit test
+Execute] Scenario: Stop redeem directly after all coupon has been acquired
+Success] Scenario: (NEVEC-6491) try to update a campaign with with too long shippingTypes
+PUT /campaigns/{campaignId}] Update a basic campaign with allowed objects
+Success] Scenario: (NEVEC-6997) Cannot update a coupon campaign with perUserCoupon not 1
+PUT /campaigns/{campaignId}] Update a basic campaign with allowed objects (case 2)
+Success] Scenario: too much limit test
+PUT /campaigns/{campaignId}] Update a basic campaign with wrong field
+PUT /campaigns/{campaignId}] Update a basic campaign with allowed objects (case 2)
+PUT /campaigns/{campaignId}] Update a basic campaign with wrong object element
+PUT /campaigns/{campaignId}] Update a basic campaign with allowed objects
+Execute] Scenario: (NEVEC-6460) create a campaign, and some fields value contain comma.
+Success] Scenario: (NEVEC-6460) create a campaign, and some fields value contain comma.
+Execute] Scenario: (NEVEC-6986) Cannot update a campaign with too long expression(200k)
+PUT /campaigns/{campaignId}] Update a basic campaign with wrong field
+Execute] Scenario: (NEVEC-6741)query by ctime
+PUT /campaigns/{campaignId}] Update a basic campaign with wrong object element
+Execute] Scenario: (NEVEC-6741) query by mtime and admin_mtime
+Success] Scenario: (UPDATE6) update a campaign with illegal time value
+Execute] Scenario: (NEVEC-6993) query a campaign with expression, verify it's format
+Success] Scenario: (UPDATE8) update a campaign with illegal time value, case 3
+Execute] Scenario: (NEVEC-6993) get a campaign without expression, verify it's format
+Success] Scenario: (UPDATE7) update a campaign with illegal time value, case 2
+Execute] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 1
+Success] Scenario: (UPDATE9) update a campaign with illegal time value, case 4
+Execute] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 2
+Success] Scenario: (NEVEC-6986) Cannot update a campaign with too long expression(200k)
+Execute] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 5
+Success] Scenario: (UPDATE10) update a campaign with illegal time value, case 5
+Execute] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 6
+Success] Scenario: (UPDATE11) update a campaign with illegal time value, case 6
+Execute] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 7
+Success] Scenario: (NEVEC-6993) query a campaign with expression, verify it's format
+Execute] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 8
+Success] Scenario: (NEVEC-6993) get a campaign without expression, verify it's format
+Execute] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 9
+Success] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 1
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field participantStoreIds
+Success] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 2
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.userTags
+Success] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 5
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.deviceTags
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field participantStoreIds
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.payTypes
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.userTags
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.shippingTypes
+Success] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 6
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field createdUserId
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.payTypes
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field createdStoreId
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.deviceTags
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field participantStoreIds
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field redeemConditions.shippingTypes
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.userTags
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field createdUserId
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.deviceTags
+Success] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 7
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.payTypes
+Success] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 8
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.shippingTypes
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: , for field createdStoreId
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field createdUserId
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field participantStoreIds
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field createdStoreId
+Success] Scenario: (NEVEC-7039) stop campaign updating maxGeneratedCodes for type 9
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: chinese character for field createdStoreId
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.userTags
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field participantStoreIds
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.deviceTags
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.shippingTypes
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field redeemConditions.payTypes
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field createdUserId
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: " for field createdStoreId
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field createdUserId
+Success] Scenario: (NEVEC-7177, NEVEC-6501) create with invalid character: chinese character for field createdStoreId
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field createdStoreId
+Success] Scenario: (UPDATE12) update a campaign's reminderIntervals to empty and back with value
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field participantStoreIds
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field participantStoreIds
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field createdUserId
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field createdUserId
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field redeemConditions
+Execute] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field createdStoreId
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: , for field createdStoreId
+Execute] Scenario: try to create a campaign with new property MALL_ECOUPON (the image is to make sure the profile works)
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field participantStoreIds
+Execute] Scenario: try to create a campaign with new property SHOPPING2_ECOUPON
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Execute] Scenario: try to create a campaign with new property SHOPPING2_PROMOCODE
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Execute] Scenario: Should be able to update redeem end time after acquire start
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field redeemConditions
+Execute] Scenario: (NEVEC-8651) update limits.percampaign to less then acquired count is blocked
+Execute] Scenario: (NEVEC-8651) update limits.percampaign of non-acquirable campaign during redeem period is blocked
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field createdUserId
+Execute] Scenario: (NEVEC-8651) update limits.perCampaign before, during, after acquire period.
+Success] Scenario: (NEVEC-7177, NEVEC-6501) update with invalid character: " for field createdStoreId
+Execute] Scenario: (IMAGE_2) update sourceImages by http
+Success] Scenario: try to create a campaign with new property MALL_ECOUPON (the image is to make sure the profile works)
+Execute] Scenario: (NEVEC-8696) create sourceImages by base64ed data
+Success] Scenario: try to create a campaign with new property SHOPPING2_ECOUPON
+Execute] Scenario: (NEVEC-8696) update sourceImages by base64ed data
+Success] Scenario: (NEVEC-8696) create sourceImages by base64ed data
+Execute] Scenario: (IMAGE_4) update sourceImages to Campaign when acquire starts but before redeem
+Success] Scenario: try to create a campaign with new property SHOPPING2_PROMOCODE
+Execute] Scenario: (IMAGE_5) update sourceImages to Campaign when acquire ends but before redeem
+Success] Scenario: (UPDATE4) too late to unset draftMode
+Execute] Scenario: (IMAGE_6) update sourceImages to Campaign when redeem starts
+Success] Scenario: (NEVEC-8696) update sourceImages by base64ed data
+Execute] Scenario: (IMAGE_7) update sourceImages to type-2 Campaign before redeem
+Success] Scenario: (UPDATE5) too late to unset draftMode, case 2
+Execute] Scenario: (IMAGE_8) update sourceImages to type-2 Campaign when redeem starts
+Success] Scenario: Stop a campaign
+Execute] Scenario: (IMAGE_9) update sourceImages when Campaign closed
+Success] Scenario: Stop redeem directly after all coupon has been acquired
+Execute] Scenario: (IMAGE_10) update sourceImages when acquire starts even the Campaign is still on draft
+Success] Scenario: Stop a campaign, case 2
+Execute] Scenario: (NEVEC-6505) Create an not existed IMG SRC to sourceImages should be failed
+Success] Scenario: (NEVEC-6505) Create an not existed IMG SRC to sourceImages should be failed
+Execute] Scenario: (IMAGE_11) (NEVEC-6505) update an not existed IMG SRC to sourceImages should be failed
+Success] Scenario: (IMAGE_11) (NEVEC-6505) update an not existed IMG SRC to sourceImages should be failed
+Execute] Scenario: (IMAGE_12) update sourceImages to a PC Campaign (type 3)
+Success] Scenario: Stop a campaign and also update other field
+Execute] Scenario: (IMAGE_13) update sourceImages to a PC Campaign (type 6)
+Success] Scenario: (NEVEC-8651) update limits.percampaign of non-acquirable campaign during redeem period is blocked
+Execute] Scenario: (IMAGE_14) update outputImages should be failed
+Success] Scenario: Should be able to update redeem end time after acquire start
+Execute] Scenario: (NEVEC-6738) query, get images
+Success] Scenario: (NEVEC-8651) update limits.percampaign to less then acquired count is blocked
+Execute] Scenario: (NEVEC-7879-1) taggedSourceImages test without tag
+Success] Scenario: (IMAGE_14) update outputImages should be failed
+Execute] Scenario: (NEVEC-7879-2) taggedSourceImages test with multiple tagged image
+Success] Scenario: (IMAGE_7) update sourceImages to type-2 Campaign before redeem
+Execute] Scenario: (NEVEC-7879-3) update taggedSourceImages test with multiple tagged image
+Success] Scenario: (IMAGE_8) update sourceImages to type-2 Campaign when redeem starts
+Execute] Scenario: (NEVEC-7879-4) source image cannot be null
+Success] Scenario: (IMAGE_6) update sourceImages to Campaign when redeem starts
+Execute] Scenario: (NEVEC-7879-5) the tag is too long
+Success] Scenario: (NEVEC-7879-4) source image cannot be null
+Execute] Scenario: (NEVEC-7879-6) too many images
+Success] Scenario: (NEVEC-7879-5) the tag is too long
+Execute] Scenario: (NEVEC-7879-7) source image cannot be null (update)
+Success] Scenario: (NEVEC-7879-6) too many images
+Execute] Scenario: (NEVEC-7879-8) the tag is too long (update)
+Success] Scenario: (NEVEC-7879-7) source image cannot be null (update)
+Execute] Scenario: (NEVEC-7879-9) too many images (update)
+Success] Scenario: (NEVEC-7879-8) the tag is too long (update)
+Execute] Scenario: succeed to get one redeemable coupon in dry run mode
+Success] Scenario: (NEVEC-7879-9) too many images (update)
+Execute] Scenario: succeed to get one redeemable coupon in dry run mode
+Success] Scenario: (IMAGE_10) update sourceImages when acquire starts even the Campaign is still on draft
+Execute] Scenario: succeed to get one non-redeemable coupon in dry run mode since the expression evaluates to false
+Success] Scenario: (IMAGE_12) update sourceImages to a PC Campaign (type 3)
+Execute] Scenario: succeed to get one non-redeemable coupon in dry run mode since the expression evaluates to false
+Success] Scenario: (IMAGE_13) update sourceImages to a PC Campaign (type 6)
+Execute] Scenario: succeed to get multiple coupons with different status in dry run mode
+Success] Scenario: (IMAGE_9) update sourceImages when Campaign closed
+Execute] Scenario: succeed to get multiple coupons with different status in dry run mode
+Success] Scenario: (NEVEC-8651) update limits.perCampaign before, during, after acquire period.
+Execute] Scenario: failed to redeem without campaign id in dry run mode
+Success] Scenario: succeed to get one redeemable coupon in dry run mode
+Execute] Scenario: failed to redeem without coupons in dry run mode
+Success] Scenario: succeed to get one redeemable coupon in dry run mode
+Execute] Scenario: Create a EL, get a EL
+Success] Scenario: Create a EL, get a EL
+Execute] Scenario: (NEVEC-6564) (NEVEC-6139) Create a draft EL, get nothing
+Success] Scenario: (NEVEC-6564) (NEVEC-6139) Create a draft EL, get nothing
+Execute] Scenario: (NEVEC-6564) (NEVEC-6139) Create a draft EL, get draft EL
+Success] Scenario: succeed to get one non-redeemable coupon in dry run mode since the expression evaluates to false
+Execute] Scenario: (NEVEC-6652) Failure -- Create a type 2 campaign, set prefix
+Success] Scenario: (NEVEC-6652) Failure -- Create a type 2 campaign, set prefix
+Execute] Scenario: Create a EL, get a EL
+Success] Scenario: (NEVEC-6564) (NEVEC-6139) Create a draft EL, get draft EL
+Execute] Scenario: Autogen -- Create a EL campaign with prefix, upload EL, get EL with code
+Success] Scenario: succeed to get one non-redeemable coupon in dry run mode since the expression evaluates to false
+Execute] Scenario: Failure -- Create a type 2 campaign, upload EL with code
+Success] Scenario: Failure -- Create a type 2 campaign, upload EL with code
+Execute] Scenario: Failure -- Create a type 5 campaign, upload EL without code
+Success] Scenario: Failure -- Create a type 5 campaign, upload EL without code
+Execute] Scenario: Create a RL, get a RL
+Success] Scenario: Create a EL, get a EL
+Execute] Scenario: Autogen -- Create a RL campaign with prefix, upload RL, get RL with code
+Success] Scenario: Autogen -- Create a EL campaign with prefix, upload EL, get EL with code
+Execute] Scenario: Failure -- Create a type 7 campaign, upload RL without code
+Success] Scenario: Failure -- Create a type 7 campaign, upload RL without code
+Execute] Scenario: Create a CL, get a CL
+Success] Scenario: succeed to get multiple coupons with different status in dry run mode
+Execute] Scenario: Autogen -- Create a CL campaign with prefix, get CL
+Success] Scenario: Create a RL, get a RL
+Execute] Scenario: Autogen update -- Create a CL campaign with prefix, get CL, update prefix and count, get another CL
+Success] Scenario: Autogen -- Create a RL campaign with prefix, upload RL, get RL with code
+Execute] Scenario: Failure -- Create a type 3 campaign, upload CL with user
+Success] Scenario: Failure -- Create a type 3 campaign, upload CL with user
+Execute] Scenario: Failure -- Collision test
+Success] Scenario: Autogen -- Create a CL campaign with prefix, get CL
+Execute] Scenario: Failure -- EL Collision test for extending interval
+Success] Scenario: succeed to get multiple coupons with different status in dry run mode
+Execute] Scenario: Failure -- RL Collision test for extending interval
+Success] Scenario: Create a CL, get a CL
+Execute] Scenario: Failure -- CL Collision test for extending interval
+Success] Scenario: Autogen update -- Create a CL campaign with prefix, get CL, update prefix and count, get another CL
+Execute] Scenario: EL Collision, autogen, then get the same users
+Success] Scenario: Failure -- Collision test
+Execute] Scenario: Failure -- Collision test for adding participant store
+Success] Scenario: failed to redeem without campaign id in dry run mode
+Execute] Scenario: No Collision test for obsolete incomplete campaign
+Success] Scenario: Failure -- EL Collision test for extending interval
+Execute] Scenario: (NEVEC-6551) No Collision test for stopped campaign
+Success] Scenario: Failure -- RL Collision test for extending interval
+Execute] Scenario: Should not check code collision for coupon campaigns
+Success] Scenario: Failure -- CL Collision test for extending interval
+Execute] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 7 campaign with prefix, upload EL, get EL without code
+Success] Scenario: failed to redeem without coupons in dry run mode
+Execute] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 7 campaign with prefix, upload RL with code, get the code we just uploaded, get the prefix and get ""
+Success] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 7 campaign with prefix, upload EL, get EL without code
+Execute] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 4 campaign with prefix, upload EL, get EL without code
+Success] Scenario: EL Collision, autogen, then get the same users
+Execute] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 4 campaign with prefix, upload RL with code, get the code we just uploaded, get the prefix and get ""
+Success] Scenario: Failure -- Collision test for adding participant store
+Execute] Scenario: (NEVEC-6163) no-Autogen -- Create type 4 campaign with prefix, upload RL with code, get the code we just uploaded, get the prefix and get "", then deactivate code
+Success] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 7 campaign with prefix, upload RL with code, get the code we just uploaded, get the prefix and get ""
+Execute] Scenario: state filter test -- STOPPED, PREDATED, OUTDATED
+Success] Scenario: (NEVEC-6551) No Collision test for stopped campaign
+Execute] Scenario: create two campaigns, test the upload EL will change adminmtime, mtime and acquiredTotal
+Success] Scenario: create two campaigns, test the upload EL will change adminmtime, mtime and acquiredTotal
+Execute] Scenario: (NEVEC-6785) create a campaign, test the upload EL will change the admin_mtime
+Success] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 4 campaign with prefix, upload EL, get EL without code
+Execute] Scenario: (NEVEC-6785) create a campaign, test the upload RL will change the admin_mtime
+Success] Scenario: (NEVEC-6655) (NEVEC-6660) no-Autogen -- Create type 4 campaign with prefix, upload RL with code, get the code we just uploaded, get the prefix and get ""
+Execute] Scenario: (NEVEC-6785) create a campaign, test the upload CL will change the admin_mtime
+Success] Scenario: (NEVEC-6741)query by ctime
+Execute] Scenario: (NEVEC-6851) get code with filter: all/coupon/promotion code.
+Success] Scenario: (NEVEC-6163) no-Autogen -- Create type 4 campaign with prefix, upload RL with code, get the code we just uploaded, get the prefix and get "", then deactivate code
+Execute] Scenario: Create a EL, post to 2 campaigns, get a EL from both campaigns
+Success] Scenario: (NEVEC-6741) query by mtime and admin_mtime
+Execute] Scenario: (PCRECOMMEND_1) recommend succeed
+Success] Scenario: Should not check code collision for coupon campaigns
+Execute] Scenario: (PCRECOMMEND_2) recommend failed
+Success] Scenario: No Collision test for obsolete incomplete campaign
+Execute] Scenario: (PCRECOMMEND_3)(NEVEC-6156)(NEVEC-6157) redeem then recommend successfully (the db structure is different)
+Success] Scenario: Create a EL, post to 2 campaigns, get a EL from both campaigns
+Execute] Scenario: (PCRECOMMEND_4) outdated recommend
+Success] Scenario: (NEVEC-6785) create a campaign, test the upload EL will change the admin_mtime
+Execute] Scenario: (PCRECOMMEND_5) Type 4 campaign succeed
+Success] Scenario: (NEVEC-6785) create a campaign, test the upload RL will change the admin_mtime
+Execute] Scenario: (PCRECOMMEND_6) Type 4 campaign not in EL
+Success] Scenario: (NEVEC-6785) create a campaign, test the upload CL will change the admin_mtime
+Execute] Scenario: (PCRECOMMEND_7) Type 4 campaign in EL but wrong code
+Success] Scenario: (NEVEC-6851) get code with filter: all/coupon/promotion code.
+Execute] Scenario: (PCRECOMMEND_8) Type 4 campaign succeed redeem then recommend successfully
+Success] Scenario: state filter test -- STOPPED, PREDATED, OUTDATED
+Execute] Scenario: (PCRECOMMEND_9) Type 5 campaign succeed
+Success] Scenario: (PCRECOMMEND_1) recommend succeed
+Execute] Scenario: (PCRECOMMEND_10) Type 5 campaign failed, in the list, user other people's code
+Success] Scenario: (PCRECOMMEND_2) recommend failed
+Execute] Scenario: (PCRECOMMEND_11) Type 5 campaign failed, not in the list, use other people's code
+Success] Scenario: (PCRECOMMEND_3)(NEVEC-6156)(NEVEC-6157) redeem then recommend successfully (the db structure is different)
+Execute] Scenario: (PCRECOMMEND_12) Type 6 campaign succeed
+Success] Scenario: (PCRECOMMEND_4) outdated recommend
+Execute] Scenario: (PCRECOMMEND_13) Type 6 campaign fail
+Success] Scenario: (PCRECOMMEND_5) Type 4 campaign succeed
+Execute] Scenario: (PCRECOMMEND_14) Type 6 campaign redeem than recommend
+Success] Scenario: (PCRECOMMEND_6) Type 4 campaign not in EL
+Execute] Scenario: (PCRECOMMEND_15) Type 6 campaign fail because the user is himself
+Success] Scenario: (PCRECOMMEND_7) Type 4 campaign in EL but wrong code
+Execute] Scenario: (PCRECOMMEND_16) Type 7 campaign succeed
+Success] Scenario: (PCRECOMMEND_8) Type 4 campaign succeed redeem then recommend successfully
+Execute] Scenario: (PCRECOMMEND_17) Type 7 campaign fail due to not in EL
+Success] Scenario: (PCRECOMMEND_9) Type 5 campaign succeed
+Execute] Scenario: (PCRECOMMEND_18) Type 7 campaign fail due to code not correct
+Success] Scenario: (PCRECOMMEND_10) Type 5 campaign failed, in the list, user other people's code
+Execute] Scenario: (PCRECOMMEND_19) Type 7 campaign fail due to user is referrer
+Success] Scenario: (PCRECOMMEND_11) Type 5 campaign failed, not in the list, use other people's code
+Execute] Scenario: (PCRECOMMEND_20) Type 7 campaign redeem then recommend successfully
+Success] Scenario: (PCRECOMMEND_12) Type 6 campaign succeed
+Execute] Scenario: (PCRECOMMEND_21) Type 8 campaign succeed even the user is himself
+Success] Scenario: (PCRECOMMEND_13) Type 6 campaign fail
+Execute] Scenario: (PCRECOMMEND_22) Type 9 campaign fail when the user is himself, because he is not in the list
+Success] Scenario: (PCRECOMMEND_14) Type 6 campaign redeem than recommend
+Execute] Scenario: (PCRECOMMEND_23) Type 9 campaign succeed even the user is himself
+Success] Scenario: (PCRECOMMEND_15) Type 6 campaign fail because the user is himself
+Execute] Scenario: (PCREDEEM_1) redeem succeed
+Success] Scenario: (PCRECOMMEND_16) Type 7 campaign succeed
+Execute] Scenario: (PCREDEEM_2) redeem failed
+Success] Scenario: (PCRECOMMEND_17) Type 7 campaign fail due to not in EL
+Execute] Scenario: (PCREDEEM_3)(NEVEC-6156)(NEVEC-6157) redeem twice (the db structure is different)
+Success] Scenario: (PCRECOMMEND_18) Type 7 campaign fail due to code not correct
+Execute] Scenario: (PCREDEEM_4) outdated redeem
+Success] Scenario: (PCRECOMMEND_19) Type 7 campaign fail due to user is referrer
+Execute] Scenario: (PCREDEEM_5) Type 4 campaign succeed
+Success] Scenario: (PCRECOMMEND_20) Type 7 campaign redeem then recommend successfully
+Execute] Scenario: (PCREDEEM_6) Type 4 campaign not in EL
+Success] Scenario: (PCRECOMMEND_21) Type 8 campaign succeed even the user is himself
+Execute] Scenario: (PCREDEEM_7) Type 4 campaign in EL but wrong code
+Success] Scenario: (PCRECOMMEND_22) Type 9 campaign fail when the user is himself, because he is not in the list
+Execute] Scenario: (PCREDEEM_8) Type 4 campaign succeed twice
+Success] Scenario: (PCREDEEM_1) redeem succeed
+Execute] Scenario: (PCREDEEM_9) Type 5 campaign succeed
+Success] Scenario: (PCRECOMMEND_23) Type 9 campaign succeed even the user is himself
+Execute] Scenario: (PCREDEEM_10) Type 5 campaign failed, in the list, user other people's code
+Success] Scenario: (PCREDEEM_2) redeem failed
+Execute] Scenario: (PCREDEEM_11) Type 5 campaign failed, not in the list, use other people's code
+Success] Scenario: (PCREDEEM_3)(NEVEC-6156)(NEVEC-6157) redeem twice (the db structure is different)
+Execute] Scenario: (PCREDEEM_12) Type 6 campaign succeed
+Success] Scenario: (PCREDEEM_4) outdated redeem
+Execute] Scenario: (PCREDEEM_13) Type 6 campaign fail
+Success] Scenario: (PCREDEEM_5) Type 4 campaign succeed
+Execute] Scenario: (PCREDEEM_14) Type 6 campaign succeed twice
+Success] Scenario: (PCREDEEM_6) Type 4 campaign not in EL
+Execute] Scenario: (PCREDEEM_15) Type 6 campaign fail because the user is himself
+Success] Scenario: (PCREDEEM_7) Type 4 campaign in EL but wrong code
+Execute] Scenario: (PCREDEEM_16) Type 7 campaign succeed
+Success] Scenario: (PCREDEEM_8) Type 4 campaign succeed twice
+Execute] Scenario: (PCREDEEM_17) Type 7 campaign fail due to not in EL
+Success] Scenario: (PCREDEEM_9) Type 5 campaign succeed
+Execute] Scenario: (PCREDEEM_18) Type 7 campaign fail due to code not correct
+Success] Scenario: (PCREDEEM_10) Type 5 campaign failed, in the list, user other people's code
+Execute] Scenario: (PCREDEEM_19) Type 7 campaign fail due to user is referrer
+Success] Scenario: (PCREDEEM_11) Type 5 campaign failed, not in the list, use other people's code
+Execute] Scenario: (PCREDEEM_20) Type 7 campaign succeed twice
+Success] Scenario: (PCREDEEM_12) Type 6 campaign succeed
+Execute] Scenario: (PCREDEEM_21) Type 8 campaign succeed even the user is himself
+Success] Scenario: (PCREDEEM_13) Type 6 campaign fail
+Execute] Scenario: (PCREDEEM_22) Type 9 campaign fail when the user is himself, because he is not in the list
+Success] Scenario: (PCREDEEM_14) Type 6 campaign succeed twice
+Execute] Scenario: (PCREDEEM_23) Type 9 campaign succeed even the user is himself
+Success] Scenario: (PCREDEEM_15) Type 6 campaign fail because the user is himself
+Execute] Scenario: (PCREDEEM_24) perUser limit test
+Success] Scenario: (PCREDEEM_16) Type 7 campaign succeed
+Execute] Scenario: (PCREDEEM_25) perUserCode limit test
+Success] Scenario: (PCREDEEM_17) Type 7 campaign fail due to not in EL
+Execute] Scenario: (PCREDEEM_26) perCode limit test
+Success] Scenario: (PCREDEEM_18) Type 7 campaign fail due to code not correct
+Execute] Scenario: (PCREDEEM_27) perCampaign limit test
+Success] Scenario: (PCREDEEM_19) Type 7 campaign fail due to user is referrer
+Execute] Scenario: (PCREDEEM_28) combined limit test
+Success] Scenario: (PCREDEEM_20) Type 7 campaign succeed twice
+Execute] Scenario: (NEVEC-6163) combined status test for deactivated code, let's go with type 6
+Success] Scenario: (PCREDEEM_21) Type 8 campaign succeed even the user is himself
+Execute] Scenario: (NEVEC-6551) redeem failed because the campaign is stopped
+Success] Scenario: (PCREDEEM_22) Type 9 campaign fail when the user is himself, because he is not in the list
+Execute] Scenario: (NEVEC-6855) get history test
+Success] Scenario: (PCREDEEM_23) Type 9 campaign succeed even the user is himself
+Execute] Scenario: (NEVEC-7147) already stopped campaign testcases
+Success] Scenario: (PCREDEEM_24) perUser limit test
+Execute] Scenario: (NEVEC-7162) used code in other campaign should be able to override in different campaign
+Success] Scenario: (PCREDEEM_25) perUserCode limit test
+Execute] Scenario: No recommendation for a cart
+Success] Scenario: (PCREDEEM_26) perCode limit test
+Execute] Scenario: Wrong format cart
+Success] Scenario: (PCREDEEM_27) perCampaign limit test
+Execute] Scenario: Test correct response format
+Success] Scenario: (NEVEC-6551) redeem failed because the campaign is stopped
+Execute] Scenario: Wrong property test for a cart
+Success] Scenario: (NEVEC-6163) combined status test for deactivated code, let's go with type 6
+Execute] Scenario: Wrong store test for a cart
+Success] Scenario: (PCREDEEM_28) combined limit test
+Execute] Scenario: (NEVEC-6453) ALL_STORE test for a cart
+Success] Scenario: (NEVEC-6855) get history test
+Execute] Scenario: Different create store test for a cart
+Success] Scenario: No recommendation for a cart
+Execute] Scenario: Wrong userTag test for a cart
+Success] Scenario: Wrong format cart
+Execute] Scenario: UserTag test for a cart
+Success] Scenario: Wrong property test for a cart
+Execute] Scenario: Wrong deviceTag test for a cart
+Success] Scenario: Wrong store test for a cart
+Execute] Scenario: DeviceTag test for a cart
+Success] Scenario: Test correct response format
+Execute] Scenario: Wrong payTypes test for a cart
+Success] Scenario: (NEVEC-6453) ALL_STORE test for a cart
+Execute] Scenario: payTypes test for a cart
+Success] Scenario: (NEVEC-7162) used code in other campaign should be able to override in different campaign
+Execute] Scenario: Wrong Expression test for a cart
+Success] Scenario: Different create store test for a cart
+Execute] Scenario: future acquirable test for a cart
+Success] Scenario: Wrong userTag test for a cart
+Execute] Scenario: past acquirable test for a cart
+Success] Scenario: UserTag test for a cart
+Execute] Scenario: past redeemable test for a cart
+Success] Scenario: (NEVEC-7147) already stopped campaign testcases
+Execute] Scenario: acquirable test for a cart
+Success] Scenario: Wrong deviceTag test for a cart
+Execute] Scenario: redeemable test for a cart
+Success] Scenario: DeviceTag test for a cart
+Execute] Scenario: (NEVEC-6139) draft test for a cart
+Success] Scenario: Wrong payTypes test for a cart
+Execute] Scenario: order test for a cart
+Success] Scenario: payTypes test for a cart
+Execute] Scenario: false shipping test for a cart
+Success] Scenario: future acquirable test for a cart
+Execute] Scenario: (NEVEC-6456) target shipping by order for a cart
+Success] Scenario: Wrong Expression test for a cart
+Execute] Scenario: (NEVEC-6456) target shipping by item for a cart
+Success] Scenario: past acquirable test for a cart
+Execute] Scenario: (NEVEC-6283) future test for a cart
+Success] Scenario: acquirable test for a cart
+Execute] Scenario: Combined recommendation test for a cart
+Success] Scenario: past redeemable test for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (MATCHED_ITEMS, MATCHED, NOT_MAT)
+Success] Scenario: (NEVEC-6139) draft test for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (MATCHED_ITEMS, NOT_MAT, MATCHED)
+Success] Scenario: order test for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (MATCHED_ITEMS, MATCHED, MATCHED)
+Success] Scenario: false shipping test for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (ORDER, MATCHED, NOT_MAT)
+Success] Scenario: (NEVEC-6456) target shipping by order for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (ORDER, NOT_MAT, MATCHED)
+Success] Scenario: redeemable test for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (ORDER, MATCHED, MATCHED)
+Success] Scenario: (NEVEC-6456) target shipping by item for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (SHIPPING, MATCHED, NOT_MAT)
+Success] Scenario: (NEVEC-6283) future test for a cart
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (SHIPPING, NOT_MAT, MATCHED)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (MATCHED_ITEMS, MATCHED, NOT_MAT)
+Execute] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (SHIPPING, MATCHED, MATCHED)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (MATCHED_ITEMS, NOT_MAT, MATCHED)
+Execute] Scenario: (Recommend Filtered Order-2) Filtered Order Matched some items with target to SHIPPING with not matched shippingTypes and (MATCHED, NOT_MAT)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (MATCHED_ITEMS, MATCHED, MATCHED)
+Execute] Scenario: (Recommend Filtered Order-2) Filtered Order Matched some items with target to SHIPPING with not matched shippingTypes and (NOT_MAT, MATCHED)
+Success] Scenario: Combined recommendation test for a cart
+Execute] Scenario: (Recommend Filtered Order-2) Filtered Order Matched some items with target to SHIPPING with not matched shippingTypes and (MATCHED, MATCHED)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (ORDER, MATCHED, NOT_MAT)
+Execute] Scenario: (Recommend Filtered Order-3) Filtered Order not matched any items
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (ORDER, NOT_MAT, MATCHED)
+Execute] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (MATCHED_ITEMS, 700, 0)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (ORDER, MATCHED, MATCHED)
+Execute] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (ORDER, 700, 0)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (SHIPPING, MATCHED, NOT_MAT)
+Execute] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (MATCHED_ITEMS, 0, 15)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (SHIPPING, NOT_MAT, MATCHED)
+Execute] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (ORDER, 0, 15)
+Success] Scenario: (Recommend Filtered Order-1) Filtered Order Matched some items with (SHIPPING, MATCHED, MATCHED)
+Execute] Scenario: (Recommend - discount maximum with percentage: 99.9999999)
+Success] Scenario: (Recommend Filtered Order-2) Filtered Order Matched some items with target to SHIPPING with not matched shippingTypes and (MATCHED, NOT_MAT)
+Execute] Scenario: (Recommend - discount maximum with percentage: 99.99999995)
+Success] Scenario: (Recommend Filtered Order-2) Filtered Order Matched some items with target to SHIPPING with not matched shippingTypes and (NOT_MAT, MATCHED)
+Execute] Scenario: (Recommend - discount maximum with percentage: 99.99999994)
+Success] Scenario: (Recommend Filtered Order-2) Filtered Order Matched some items with target to SHIPPING with not matched shippingTypes and (MATCHED, MATCHED)
+Execute] Scenario: (NEVEC-6970) all acquired campaign doesn't get recommended
+Success] Scenario: (Recommend Filtered Order-3) Filtered Order not matched any items
+Execute] Scenario: (NEVEC-7031) Recommend acquire as if in the future
+Success] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (MATCHED_ITEMS, 700, 0)
+Execute] Scenario: (NEVEC-7031) Recommend redeem as if in the future
+Success] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (ORDER, 700, 0)
+Execute] Scenario: (NEVEC-7190) recommend IMPOSSIBLE_CALCULATE_DISCOUNT coupon
+Success] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (MATCHED_ITEMS, 0, 15)
+Execute] Scenario: Only recommended campaigns can be recommended
+Success] Scenario: (Recommend Filtered Order-4) Filtered Order matched some items with unreached threshold and (ORDER, 0, 15)
+Execute] Scenario: As a user, I can get the list of recommended coupons except for the usage right ones
+Success] Scenario: (Recommend - discount maximum with percentage: 99.9999999)
+Execute] Scenario: (TRIAL_1) too early to recommend
+Success] Scenario: (NEVEC-7031) Recommend redeem as if in the future
+Success] Scenario: (NEVEC-7031) Recommend acquire as if in the future
+Execute] Scenario: (TRIAL_3) recommend with an empty coupon object
+Execute] Scenario: (TRIAL_2) too late to recommend
+Success] Scenario: Only recommended campaigns can be recommended
+Execute] Scenario: (TRIAL_4) successful recommend to a Cart
+Success] Scenario: (Recommend - discount maximum with percentage: 99.99999995)
+Execute] Scenario: (TRIAL_5) recommend with the wrong campaign
+Success] Scenario: (Recommend - discount maximum with percentage: 99.99999994)
+Execute] Scenario: (TRIAL_6) recommend to a Cart by an EL user
+Success] Scenario: (NEVEC-6970) all acquired campaign doesn't get recommended
+Execute] Scenario: (TRIAL_7) recommend to a Cart by an EL user (case 2)
+Success] Scenario: (NEVEC-7190) recommend IMPOSSIBLE_CALCULATE_DISCOUNT coupon
+Execute] Scenario: (TRIAL_8) recommend to a Cart by an EL user (case 3)
+Success] Scenario: (TRIAL_3) recommend with an empty coupon object
+Execute] Scenario: (TRIAL_9) recommend to a Cart by an EL user (case 4)
+Success] Scenario: As a user, I can get the list of recommended coupons except for the usage right ones
+Execute] Scenario: (TRIAL_10) recommend to a Cart by an EL user (but user not at EL)
+Success] Scenario: (TRIAL_5) recommend with the wrong campaign
+Execute] Scenario: (TRIAL_11) recommend to a Cart but blocked by TOTAL_THRESHOLD_UNREACHED
+Success] Scenario: (TRIAL_6) recommend to a Cart by an EL user
+Execute] Scenario: (TRIAL_12) recommend to a Cart but blocked by QUANTITY_THRESHOLD_UNREACHED
+Success] Scenario: (TRIAL_1) too early to recommend
+Execute] Scenario: (TRIAL_13) recommend to a Cart (but blocked by NO_MATCHING_USER_TAG)
+Success] Scenario: (TRIAL_8) recommend to a Cart by an EL user (case 3)
+Execute] Scenario: (TRIAL_14) recommend to a Cart (but blocked by NO_MATCHING_DEVICE_TAG)
+Success] Scenario: (TRIAL_4) successful recommend to a Cart
+Execute] Scenario: (NEVEC-6897) recommend to a Cart (but blocked by NO_MATCHING_PAY_TYPE)
+Success] Scenario: (TRIAL_7) recommend to a Cart by an EL user (case 2)
+Execute] Scenario: (TRIAL_15) recommend to a Cart (but blocked by NO_MATCHING_USER_TAG & NO_MATCHING_DEVICE_TAG & NO_MATCHING_PAY_TYPE)
+Success] Scenario: (TRIAL_2) too late to recommend
+Execute] Scenario: (TRIAL_16) recommend to a Cart (but DOES_NOT_MATCH_RULE)
+Success] Scenario: (TRIAL_9) recommend to a Cart by an EL user (case 4)
+Execute] Scenario: (TRIAL_17) recommend to a Cart (but SHIPPING_LINE_NOT_MATCH)
+Success] Scenario: (TRIAL_10) recommend to a Cart by an EL user (but user not at EL)
+Execute] Scenario: (TRIAL_18) recommend to a Cart (but SHIPPING_LINE_NOT_MATCH & MISSING_SHIPPING_FEE)
+Success] Scenario: (TRIAL_11) recommend to a Cart but blocked by TOTAL_THRESHOLD_UNREACHED
+Execute] Scenario: (TRIAL_19) recommend to a Cart (but blocked by DOES_NOT_MATCH_LINE_TYPE)
+Success] Scenario: (TRIAL_12) recommend to a Cart but blocked by QUANTITY_THRESHOLD_UNREACHED
+Execute] Scenario: (TRIAL_20) recommend to a Cart (all lines are with same lineId)
+Success] Scenario: (TRIAL_13) recommend to a Cart (but blocked by NO_MATCHING_USER_TAG)
+Execute] Scenario: (TRIAL_21) recommend to a Cart (same lineId with 2 different coupons)
+Success] Scenario: (TRIAL_14) recommend to a Cart (but blocked by NO_MATCHING_DEVICE_TAG)
+Execute] Scenario: (TRIAL_21_2) special case that if we use two shipping line it still should be blocked
+Success] Scenario: (NEVEC-6897) recommend to a Cart (but blocked by NO_MATCHING_PAY_TYPE)
+Execute] Scenario: (TRIAL_22) recommend to a Cart (but blocked by NO_MATCHING_LINE)
+Success] Scenario: (TRIAL_15) recommend to a Cart (but blocked by NO_MATCHING_USER_TAG & NO_MATCHING_DEVICE_TAG & NO_MATCHING_PAY_TYPE)
+Execute] Scenario: (TRIAL_23) recommend to a Cart with negative item's total is negative
+Success] Scenario: (TRIAL_16) recommend to a Cart (but DOES_NOT_MATCH_RULE)
+Execute] Scenario: (TRIAL_24) recommend to a Cart by an EL user and the property is wrong (the coupon is considered non-existing)
+Success] Scenario: (TRIAL_17) recommend to a Cart (but SHIPPING_LINE_NOT_MATCH)
+Execute] Scenario: (NEVEC-6544) recommend not acquirable campaign with userId, campaign will not be recommended
+Success] Scenario: (TRIAL_18) recommend to a Cart (but SHIPPING_LINE_NOT_MATCH & MISSING_SHIPPING_FEE)
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (TRIAL_19) recommend to a Cart (but blocked by DOES_NOT_MATCH_LINE_TYPE)
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (TRIAL_20) recommend to a Cart (all lines are with same lineId)
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (TRIAL_21) recommend to a Cart (same lineId with 2 different coupons)
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (TRIAL_21_2) special case that if we use two shipping line it still should be blocked
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (TRIAL_22) recommend to a Cart (but blocked by NO_MATCHING_LINE)
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (TRIAL_23) recommend to a Cart with negative item's total is negative
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (TRIAL_24) recommend to a Cart by an EL user and the property is wrong (the coupon is considered non-existing)
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (NEVEC-6544) recommend not acquirable campaign with userId, campaign will not be recommended
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 700, 0
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and ORDER, 700, 0
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 0, 15
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and ORDER, 0, 15
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-3) Filtered Order coupon attached to (ITEM, lineId1) (should failed)
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-3) Filtered Order coupon attached to (ITEM, lineId2) (should failed)
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-3) Filtered Order coupon attached to (ITEM, lineId3) (should failed)
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (NEVEC-6970) all acquired campaign doesn't get recommended (with user version)
+Success] Scenario: (Recommend Filtered Order Coupon Input-1) Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: Corretly determine a campaign is stopped when the acquire and redeem interval overlaps
+Success] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 700, 0
+Execute] Scenario: (NEVEC-7031) Recommend acquire as if in the future (with user)
+Success] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and ORDER, 700, 0
+Execute] Scenario: (NEVEC-7031) Recommend redeem as if in the future (with user)
+Success] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 0, 15
+Execute] Scenario: (NEVEC-7031) trial as if in the future (with user)
+Success] Scenario: (Recommend Filtered Order Coupon Input-2) Filtered Order matched some items with unreached threshold and ORDER, 0, 15
+Execute] Scenario: (REDEEM_7) coupon won't get recommended with user Id after use
+Success] Scenario: (Recommend Filtered Order Coupon Input-3) Filtered Order coupon attached to (ITEM, lineId1) (should failed)
+Execute] Scenario: (NEVEC-7190) recommend IMPOSSIBLE_CALCULATE_DISCOUNT coupon with user
+Success] Scenario: (Recommend Filtered Order Coupon Input-3) Filtered Order coupon attached to (ITEM, lineId2) (should failed)
+Execute] Scenario: As a user, I cannot recommend a usage right coupon to a Cart
+Success] Scenario: (NEVEC-7031) Recommend acquire as if in the future (with user)
+Execute] Scenario: (NEVEC-12697) multiple recommend in one line, one is shipping
+Success] Scenario: (Recommend Filtered Order Coupon Input-3) Filtered Order coupon attached to (ITEM, lineId3) (should failed)
+Execute] Scenario: (REDEEM_1) successfully redeem to a Cart for line type ITEM
+Success] Scenario: (NEVEC-6970) all acquired campaign doesn't get recommended (with user version)
+Execute] Scenario: (REDEEM_2) successfully redeem to a Cart for line type ORDER
+Success] Scenario: Corretly determine a campaign is stopped when the acquire and redeem interval overlaps
+Execute] Scenario: (REDEEM_3) too early to redeem
+Success] Scenario: (NEVEC-7031) Recommend redeem as if in the future (with user)
+Execute] Scenario: (REDEEM_4) too late to redeem
+Success] Scenario: (NEVEC-7031) trial as if in the future (with user)
+Execute] Scenario: (REDEEM_5) try to redeem but the acquireStopped is true
+Success] Scenario: (NEVEC-7190) recommend IMPOSSIBLE_CALCULATE_DISCOUNT coupon with user
+Execute] Scenario: (REDEEM_6) try to redeem but the redeemStopped is true
+Success] Scenario: (REDEEM_7) coupon won't get recommended with user Id after use
+Execute] Scenario: (REDEEM_7) successfully redeem for an EL buyer
+Success] Scenario: As a user, I cannot recommend a usage right coupon to a Cart
+Execute] Scenario: (REDEEM_8) an EL buyer could not redeem due to campaign stopped
+Success] Scenario: (NEVEC-12697) multiple recommend in one line, one is shipping
+Execute] Scenario: (REDEEM_9) a not EL buyer try to redeem
+Success] Scenario: (REDEEM_1) successfully redeem to a Cart for line type ITEM
+Execute] Scenario: (REDEEM_9-1) an EL buyer try to redeem a draft campaign
+Success] Scenario: (REDEEM_2) successfully redeem to a Cart for line type ORDER
+Execute] Scenario: (REDEEM_9-2) a buyer try to redeem an EL-not-imported campaign
+Success] Scenario: (REDEEM_3) too early to redeem
+Execute] Scenario: (REDEEM_10) redeem with wrong userId
+Success] Scenario: (REDEEM_5) try to redeem but the acquireStopped is true
+Execute] Scenario: (REDEEM_11) redeem to a Cart but blocked by TOTAL_THRESHOLD_UNREACHED
+Success] Scenario: (REDEEM_4) too late to redeem
+Execute] Scenario: (REDEEM_12) redeem to a Cart but blocked by QUANTITY_THRESHOLD_UNREACHED
+Success] Scenario: (REDEEM_7) successfully redeem for an EL buyer
+Execute] Scenario: (REDEEM_13) redeem to a Cart but blocked by NO_MATCHING_USER_TAG
+Success] Scenario: (REDEEM_8) an EL buyer could not redeem due to campaign stopped
+Execute] Scenario: (REDEEM_14) redeem to a Cart but blocked by NO_MATCHING_DEVICE_TAG
+Success] Scenario: (REDEEM_9) a not EL buyer try to redeem
+Execute] Scenario: (NEVEC-6897) redeem to a Cart but blocked by NO_MATCHING_PAY_TYPE
+Success] Scenario: (REDEEM_9-1) an EL buyer try to redeem a draft campaign
+Execute] Scenario: (REDEEM_15) redeem to a Cart but blocked by NO_MATCHING_DEVICE_TAG or NO_MATCHING_USER_TAG or NO_MATCHING_PAY_TYPE
+Success] Scenario: (REDEEM_9-2) a buyer try to redeem an EL-not-imported campaign
+Execute] Scenario: (REDEEM_16) redeem to a Cart but blocked by DOES_NOT_MATCH_RULE
+Success] Scenario: (REDEEM_10) redeem with wrong userId
+Execute] Scenario: (REDEEM_17) redeem to a Cart but blocked by SHIPPING_LINE_NOT_MATCH
+Success] Scenario: (REDEEM_11) redeem to a Cart but blocked by TOTAL_THRESHOLD_UNREACHED
+Execute] Scenario: (REDEEM_18) redeem to a Cart but blocked by MISSING_SHIPPING_FEE
+Success] Scenario: (REDEEM_6) try to redeem but the redeemStopped is true
+Execute] Scenario: (REDEEM_19) redeem to a Cart but blocked by DOES_NOT_MATCH_LINE_TYPE
+Success] Scenario: (REDEEM_12) redeem to a Cart but blocked by QUANTITY_THRESHOLD_UNREACHED
+Execute] Scenario: (REDEEM_20) redeem to a Cart but all lines are with same lineId
+Success] Scenario: (REDEEM_13) redeem to a Cart but blocked by NO_MATCHING_USER_TAG
+Execute] Scenario: (REDEEM_21) redeem to a Cart but same lineId with 2 different coupons
+Success] Scenario: (REDEEM_14) redeem to a Cart but blocked by NO_MATCHING_DEVICE_TAG
+Execute] Scenario: (REDEEM_21_2) special case that if we use two shipping line it still should be blocked
+Success] Scenario: (NEVEC-6897) redeem to a Cart but blocked by NO_MATCHING_PAY_TYPE
+Execute] Scenario: (REDEEM_22) redeem to a Cart but blocked by NO_MATCHING_LINE
+Success] Scenario: (REDEEM_15) redeem to a Cart but blocked by NO_MATCHING_DEVICE_TAG or NO_MATCHING_USER_TAG or NO_MATCHING_PAY_TYPE
+Execute] Scenario: (REDEEM_23) redeem to a Cart with negative item's total is negative
+Success] Scenario: (REDEEM_16) redeem to a Cart but blocked by DOES_NOT_MATCH_RULE
+Execute] Scenario: (REDEEM_24) use a wrong format coupon
+Success] Scenario: (REDEEM_17) redeem to a Cart but blocked by SHIPPING_LINE_NOT_MATCH
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: -1 and perUser: -1
+Success] Scenario: (REDEEM_18) redeem to a Cart but blocked by MISSING_SHIPPING_FEE
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: -1 and perUser: 4
+Success] Scenario: (REDEEM_19) redeem to a Cart but blocked by DOES_NOT_MATCH_LINE_TYPE
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: -1 and perUser: 3
+Success] Scenario: (REDEEM_20) redeem to a Cart but all lines are with same lineId
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 4 and perUser: -1
+Success] Scenario: (REDEEM_21) redeem to a Cart but same lineId with 2 different coupons
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 4 and perUser: 4
+Success] Scenario: (REDEEM_21_2) special case that if we use two shipping line it still should be blocked
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 4 and perUser: 3
+Success] Scenario: (REDEEM_22) redeem to a Cart but blocked by NO_MATCHING_LINE
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 3 and perUser: -1
+Success] Scenario: (REDEEM_23) redeem to a Cart with negative item's total is negative
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 3 and perUser: 4
+Success] Scenario: (REDEEM_24) use a wrong format coupon
+Execute] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 3 and perUser: 3
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: -1 and perUser: -1
+Execute] Scenario: (NEVEC-6785) create a campaign, test mtime and admin_mtime behavior
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: -1 and perUser: 4
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: -1 and perUser: 3
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 4 and perUser: -1
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 4 and perUser: 4
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 3 and perUser: -1
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 3 and perUser: 4
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 3 and perUser: 3
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Success] Scenario: (NEVEC-6785) create a campaign, test mtime and admin_mtime behavior
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-1) Positive cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, 3, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to MATCHED_ITEMS, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 700, 0
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and ORDER, 700, 0
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 0, 15
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to ORDER, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and ORDER, 0, 15
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (Recommend Filtered Order Coupon Input-4) Filtered Order coupon attached to (ITEM, lineId1) (should failed)
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-4) Filtered Order coupon attached to (ITEM, lineId2) (should failed)
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, MATCHED
+Execute] Scenario: (Recommend Filtered Order Coupon Input-4) Filtered Order coupon attached to (ITEM, lineId3) (should failed)
+Success] Scenario: (Redeem Filtered Order Coupon Input-2) Negative cases of Filtered Order Matched some items with target to SHIPPING, NOT_MATCHED, <ITEM1_X>, NOT_MAT
+Execute] Scenario: (NEVEC-7031) you cannot redeem with time simulation
+Success] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 700, 0
+Execute] Scenario: (NEVEC-7190) redeem IMPOSSIBLE_CALCULATE_DISCOUNT coupon
+Success] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and ORDER, 700, 0
+Execute] Scenario: (RETURN_1) successfully return the whole Order
+Success] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and MATCHED_ITEMS, 0, 15
+Execute] Scenario: (RETURN_2) successfully return a lineItem in an Order
+Success] Scenario: (Redeem Filtered Order Coupon Input-3) Filtered Order matched some items with unreached threshold and ORDER, 0, 15
+Execute] Scenario: (RETURN_3) return by an EL buyer
+Success] Scenario: (Recommend Filtered Order Coupon Input-4) Filtered Order coupon attached to (ITEM, lineId1) (should failed)
+Execute] Scenario: (RETURN_4) try to return an Order but the campaign has ended
+Success] Scenario: (NEVEC-7031) you cannot redeem with time simulation
+Execute] Scenario: (RETURN_5) try to return an Item but the campaign has ended
+Success] Scenario: (Recommend Filtered Order Coupon Input-4) Filtered Order coupon attached to (ITEM, lineId2) (should failed)
+Execute] Scenario: (RETURN_6) return an Order then redeem the coupon again
+Success] Scenario: (Recommend Filtered Order Coupon Input-4) Filtered Order coupon attached to (ITEM, lineId3) (should failed)
+Execute] Scenario: (RETURN_7) too late to redeem a returned coupon
+Success] Scenario: (NEVEC-7190) redeem IMPOSSIBLE_CALCULATE_DISCOUNT coupon
+Execute] Scenario: (RETURN_8) return a wrong Order ID
+Success] Scenario: (RETURN_1) successfully return the whole Order
+Execute] Scenario: (RETURN_9) return 2 Order IDs (1 with right, the other is wrong)
+Success] Scenario: (RETURN_2) successfully return a lineItem in an Order
+Execute] Scenario: (RETURN_10) return a right Order ID but with wrong item ID
+Success] Scenario: (RETURN_3) return by an EL buyer
+Execute] Scenario: (RETURN_11) return a right item ID but with a wrong Order ID
+Success] Scenario: (RETURN_6) return an Order then redeem the coupon again
+Execute] Scenario: (RETURN_12) return 2 Order IDs (one is right, but the other is with a right item ID)
+Success] Scenario: (RETURN_4) try to return an Order but the campaign has ended
+Execute] Scenario: (RETURN_13) return an Order by different userId (frankly we do not check userId @@)
+Success] Scenario: (RETURN_5) try to return an Item but the campaign has ended
+Execute] Scenario: (RETURN_14) return multiple Orders (from same Store and same user) at once
+Success] Scenario: (RETURN_8) return a wrong Order ID
+Execute] Scenario: (RETURN_15) return multiple Orders (from different Stores and different users) at once
+Failed ] Scenario: (REDEEM_25) multiple redeem/acquire on a campaign with limits perCampaign: 4 and perUser: 3
+======> lineId = lineId_k6TGbc26
+======> lineId2 = lineId2_D4sPcJlI
+======> lineId3 = lineId3_Sw8IyGwu
+======> orderId = orderId_rydr1U2p
+======> orderId2 = orderId2_31WUksRv
+======> orderId3 = orderId3_YMEAMQ1u
+======> storeId = storeId_fhDm3AIe
+======> userId = userId_CWs93CXJ
+DEBUG] post to API: /api/cupid/v1/campaigns
+20210226-08:18:37.210] start  post /api/cupid/v1/campaigns
+Execute] Scenario: (RETURN_16) return with an empty Order object
+Success] Scenario: (RETURN_16) return with an empty Order object
+Execute] Scenario: (RETURN_17) return with a right Item ID but the Order ID is empty
+Success] Scenario: (RETURN_17) return with a right Item ID but the Order ID is empty
+Execute] Scenario: (RETURN_18) return with both Order Id and Item ID are empty
+Success] Scenario: (RETURN_18) return with both Order Id and Item ID are empty
+Execute] Scenario: (RETURN_19) double returning with duplicate order, line pairs
+Success] Scenario: (RETURN_9) return 2 Order IDs (1 with right, the other is wrong)
+Execute] Scenario: (RETURN_20) double returning coupons: order+line pair and only order id
+Success] Scenario: (RETURN_10) return a right Order ID but with wrong item ID
+Execute] Scenario: (RETURN_21) return an already returned order+line pair
+Success] Scenario: (RETURN_11) return a right item ID but with a wrong Order ID
+Execute] Scenario: (RETURN_22) return an order with already-returned order+line pair
+Success] Scenario: (RETURN_12) return 2 Order IDs (one is right, but the other is with a right item ID)
+Execute] Scenario: (RETURN_23) return whole Order for an order-based-campaign Order
+Success] Scenario: (RETURN_7) too late to redeem a returned coupon
+Execute] Scenario: (RETURN_24) return with order and line id from an order-based-campaign Order
+Success] Scenario: (RETURN_13) return an Order by different userId (frankly we do not check userId @@)
+Execute] Scenario: (RETURN_25) partial return (2 item-based campaigns)
+Success] Scenario: (RETURN_14) return multiple Orders (from same Store and same user) at once
+Execute] Scenario: (RETURN_26) partial return (one item-based campaign)
+Success] Scenario: (RETURN_19) double returning with duplicate order, line pairs
+Execute] Scenario: (RETURN_27) return whole order with an already returned order line pair
+Success] Scenario: (RETURN_20) double returning coupons: order+line pair and only order id
+Execute] Scenario: (RETURN_28) redeem on already redeemed (order,line) pair(should be failed). then return it and redeem again(should success).
+Success] Scenario: (RETURN_21) return an already returned order+line pair
+Execute] Scenario: (NEVEC-6165) return test
+Success] Scenario: (RETURN_15) return multiple Orders (from different Stores and different users) at once
+Execute] Scenario: (RETURN_29) 400 when return empty order,line pair list.
+Success] Scenario: (RETURN_29) 400 when return empty order,line pair list.
+Execute] Scenario: (NEVEC-12697) multiple redeem in one line, one is shipping, return both of them then redeem both of them again then return one of them then redeem that one again then fail
+Success] Scenario: (RETURN_22) return an order with already-returned order+line pair
+Execute] Scenario: UID
+Success] Scenario: UID
+Execute] Scenario: fail to redeem to a non-usageRight campaign
+Success] Scenario: (RETURN_23) return whole Order for an order-based-campaign Order
+Execute] Scenario: no usageRightRedeemId and fails
+Success] Scenario: (RETURN_24) return with order and line id from an order-based-campaign Order
+Execute] Scenario: redeem to an usageRight campaign (coupon)
+Success] Scenario: (RETURN_25) partial return (2 item-based campaigns)
+Execute] Scenario: redeem to an usageRight campaign (coupon)
+Success] Scenario: fail to redeem to a non-usageRight campaign
+Execute] Scenario: redeem to an usageRight campaign (coupon)
+Success] Scenario: (RETURN_26) partial return (one item-based campaign)
+Execute] Scenario: redeem to an usageRight campaign (coupon)
+Success] Scenario: no usageRightRedeemId and fails
+Execute] Scenario: redeem to an usageRight campaign (promotion code)
+Success] Scenario: (RETURN_27) return whole order with an already returned order line pair
+Execute] Scenario: redeem to an usageRight campaign (promotion code)
+Success] Scenario: redeem to an usageRight campaign (coupon)
+Execute] Scenario: redeem to an usageRight campaign (promotion code)
+Success] Scenario: (RETURN_28) redeem on already redeemed (order,line) pair(should be failed). then return it and redeem again(should success).
+Execute] Scenario: redeem to an usageRight campaign (promotion code)
+Success] Scenario: redeem to an usageRight campaign (coupon)
+Execute] Scenario: successfully return a usage right campaign
+Success] Scenario: redeem to an usageRight campaign (coupon)
+Execute] Scenario: no urrid given
+Success] Scenario: no urrid given
+Execute] Scenario: wrong urrid given
+Success] Scenario: wrong urrid given
+Execute] Scenario: (ACQ1) same user to acquire a coupon twice
+Success] Scenario: redeem to an usageRight campaign (coupon)
+Execute] Scenario: (ACQ2) same user to acquire a coupon twice (Case 2)
+Success] Scenario: (NEVEC-12697) multiple redeem in one line, one is shipping, return both of them then redeem both of them again then return one of them then redeem that one again then fail
+Execute] Scenario: (ACQ3) acquire an over-acquired coupon by different users
+Success] Scenario: (NEVEC-6165) return test
+Execute] Scenario: (ACQ4) try to acquire a not-complete campaign (status=2)
+Success] Scenario: (ACQ4) try to acquire a not-complete campaign (status=2)
+Execute] Scenario: (ACQ5) (NEVEC-6139) acquire a coupon but campaign is still draft
+Success] Scenario: successfully return a usage right campaign
+Execute] Scenario: (ACQ6) acquire to a non-existed coupon (int format)
+REDEEMED]]
+Success] Scenario: redeem to an usageRight campaign (promotion code)
+Execute] Scenario: (ACQ7) acquire to a non-existed coupon (by wrong campaignId format)
+Success] Scenario: (ACQ6) acquire to a non-existed coupon (int format)
+Execute] Scenario: (ACQ8) too late to acquire coupon
+Success] Scenario: (ACQ7) acquire to a non-existed coupon (by wrong campaignId format)
+Execute] Scenario: (ACQ9) too early to acquire coupon
+Success] Scenario: (ACQ1) same user to acquire a coupon twice
+Execute] Scenario: (ACQ10) to acquire a not acquirable coupon even with proper acquire{Start,End}Ts
+Success] Scenario: (ACQ9) too early to acquire coupon
+Execute] Scenario: (ACQ11) to acquire a not acquirable coupon (say type 3 or 4)
+Success] Scenario: (ACQ11) to acquire a not acquirable coupon (say type 3 or 4)
+Execute] Scenario: (ACQ12) to acquire a not acquirable coupon (say type 6~9)
+Success] Scenario: (ACQ12) to acquire a not acquirable coupon (say type 6~9)
+Execute] Scenario: (ACQ13) acquire to a stopped coupon
+DOES_NOT_MATCH_RULE]]
+Success] Scenario: redeem to an usageRight campaign (promotion code)
+Execute] Scenario: (ACQ14) an EL user try to acquire the coupon
+Success] Scenario: (ACQ2) same user to acquire a coupon twice (Case 2)
+Execute] Scenario: (ACQ15) a not-EL user try to acquire the coupon
+Success] Scenario: (ACQ3) acquire an over-acquired coupon by different users
+Execute] Scenario: (ACQ16) user to acquire different coupons
+Success] Scenario: (ACQ14) an EL user try to acquire the coupon
+Execute] Scenario: (MY1) I do not have any owned coupons
+Success] Scenario: (MY1) I do not have any owned coupons
+Execute] Scenario: (MY2) list my just acquired one coupon
+Success] Scenario: (ACQ15) a not-EL user try to acquire the coupon
+Execute] Scenario: (MY3) list my just acquired 3 coupons
+NOT_ACQUIRED_COUPON]]
+Success] Scenario: redeem to an usageRight campaign (promotion code)
+Execute] Scenario: (MY4) (NEVEC-6466) list my just acquired 2 of 3 coupons by paging
+NO_MATCHING_USER_TAG, NO_MATCHING_DEVICE_TAG]]
+Success] Scenario: redeem to an usageRight campaign (promotion code)
+Execute] Scenario: (ISACQ1) (NEVEC-6457) check if could acquire an acquirable coupon?
+Success] Scenario: (ACQ10) to acquire a not acquirable coupon even with proper acquire{Start,End}Ts
+Execute] Scenario: (ISACQ1) is more acquirable after acquired
+Success] Scenario: (ACQ13) acquire to a stopped coupon
+Execute] Scenario: (ISACQ2) same user to acquire a coupon twice (Case 2)
+Success] Scenario: (ACQ8) too late to acquire coupon
+Execute] Scenario: (ISACQ3) acquire an over-acquired coupon by different users
+Success] Scenario: (MY2) list my just acquired one coupon
+Execute] Scenario: (ISACQ4) try to acquire a not-complete campaign (status=2)
+Success] Scenario: (ACQ16) user to acquire different coupons
+Execute] Scenario: (ISACQ5) (NEVEC-6139) acquire a coupon but campaign is still draft
+Success] Scenario: (ACQ5) (NEVEC-6139) acquire a coupon but campaign is still draft
+Execute] Scenario: (ISACQ6) acquire to a non-existed coupon (int format)
+Success] Scenario: (MY3) list my just acquired 3 coupons
+Execute] Scenario: (ISACQ7) acquire to a non-existed coupon (by wrong campaignId format)
+Success] Scenario: (MY4) (NEVEC-6466) list my just acquired 2 of 3 coupons by paging
+Execute] Scenario: (ISACQ8) too late to acquire coupon
+Success] Scenario: (ISACQ1) (NEVEC-6457) check if could acquire an acquirable coupon?
+Execute] Scenario: (ISACQ9) too early to acquire coupon
+Success] Scenario: (ISACQ1) is more acquirable after acquired
+Execute] Scenario: (ISACQ10) to acquire a not acquirable coupon even with proper acquire{Start,End}Ts
+Success] Scenario: (ISACQ2) same user to acquire a coupon twice (Case 2)
+Execute] Scenario: (ISACQ11) to acquire a not acquirable coupon (say type 3 or 4)
+Success] Scenario: (ISACQ4) try to acquire a not-complete campaign (status=2)
+Execute] Scenario: (ISACQ12) to acquire a not acquirable coupon (say type 6~9)
+Success] Scenario: (ISACQ5) (NEVEC-6139) acquire a coupon but campaign is still draft
+Execute] Scenario: (ISACQ13) acquire to a stopped coupon
+Success] Scenario: (ISACQ6) acquire to a non-existed coupon (int format)
+Execute] Scenario: (ISACQ14) an EL user try to acquire the coupon
+Success] Scenario: (ISACQ7) acquire to a non-existed coupon (by wrong campaignId format)
+Execute] Scenario: (ISACQ15) a not-EL user try to acquire the coupon
+Success] Scenario: (ISACQ3) acquire an over-acquired coupon by different users
+Execute] Scenario: (NEVEC-6854) create 5 PC campaigns, correctly find two of them by user and code and time
+Success] Scenario: (ISACQ8) too late to acquire coupon
+Execute] Scenario: redeem for an EL buyer GDPR, and cannot find record with this user
+Success] Scenario: (ISACQ9) too early to acquire coupon
+Execute] Scenario: list my coupons with different usageRight
+Success] Scenario: (NEVEC-6854) create 5 PC campaigns, correctly find two of them by user and code and time
+Execute] Scenario: list my coupons with different usageRight
+Success] Scenario: (ISACQ10) to acquire a not acquirable coupon even with proper acquire{Start,End}Ts
+Execute] Scenario: list my coupons with different usageRight
+Success] Scenario: (ISACQ11) to acquire a not acquirable coupon (say type 3 or 4)
+Execute] Scenario: list my coupons with different usageRight
+Success] Scenario: (ISACQ12) to acquire a not acquirable coupon (say type 6~9)
+Execute] Scenario: list my coupons with invalid usageRight
+Success] Scenario: list my coupons with invalid usageRight
+Success] Scenario: (ISACQ14) an EL user try to acquire the coupon
+Success] Scenario: (ISACQ15) a not-EL user try to acquire the coupon
+Success] Scenario: list my coupons with different usageRight
+Success] Scenario: list my coupons with different usageRight
+Success] Scenario: list my coupons with different usageRight
+Success] Scenario: list my coupons with different usageRight
+Success] Scenario: (ISACQ13) acquire to a stopped coupon
+Success] Scenario: redeem for an EL buyer GDPR, and cannot find record with this user
