@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class Generator {
     public static void main(String[] args) {
-        String s = matrix(200, 200);
+        String s = matrix(100, 100);
         System.out.println(s);
     }
 
